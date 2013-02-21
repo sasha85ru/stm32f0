@@ -1,6 +1,6 @@
-/*
-*Функции реализующие задержку в микросекундах и милисекундах.
-* Значения SystemCoreClock берётся из файла system_stm32f0xx.c*/
+/* Функции реализующие задержку в микросекундах и милисекундах c помощью Basic timer (TIM6). *
+*  Значения SystemCoreClock берётся из файла system_stm32f0xx.c                              *
+*  Используемы источник информации http://mycontroller.ru/stm32-timer-funktsiya-zaderzhki/   */
  
 #ifndef __delay_tim6_h
 #define __delay_tim6t_h
